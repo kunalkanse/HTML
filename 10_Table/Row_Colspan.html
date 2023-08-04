@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan & colspan</title>
+</head>
+<body>
+
+    <table border="2px" cellspacing="10px" cellpadding="15px" bgcolor="skyblue">
+        <caption>understanding rowspan & colspan</caption>
+
+        <tr>
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <th>1</th>
+            <td>aaa</td>
+            <td>jr. Engg</td>
+            <td>4 LPA</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">2</th>
+            <td>bbb</td>
+            <td>Sr. Engg</td>
+            <td>12 LPA</td>
+        </tr>
+        <tr>
+            <!-- <th>3</th> -->
+            <td>ccc</td>
+            <td>Manager</td>
+            <td>20 LPA</td>
+        </tr>
+
+        <tr>
+            <th>4</th>
+            <td>ddd</td>
+            <td colspan="2">ceo</td>
+            <!-- <td>35 LPA</td> -->
+        </tr>
+    </table>
+    
+</body>
+</html>
