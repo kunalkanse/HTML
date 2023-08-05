@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="index.php" method="post">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" name="username" id="username" value="Kunal kanse" required>
+        </div>
+     
+        <br>  
+    
+        <div>
+            <label for="age">Enter your age</label>
+            <input type="number" name="age" id="age" placeholder="22">
+        </div>
+    
+        <br>
+    
+        <div>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time" disabled>
+            <span> (Disabled)</span>
+        </div>
+    
+        <br>
+
+        <div>
+            <label for="textarea"> Share your experience</label> <br>
+            <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
+        </div>
+    
+        <div>
+            <label for="emal">Enter e-Mail</label>
+            <input type="email" name="mail" id="mail" placeholder="abc@example.com">
+        </div>
+    
+        <br>  
+
+        <div>
+            <label for="linkedin">Linkedin URL</label>
+            <input type="url" name="linkedin" id="linkedin" placeholder="http://linkedin/kunalkanse.com">
+        </div>
+        
+        <br> 
+        
+        <div>
+            <label for="range">Expected Salary</label>
+            <input type="range" name="range" id="range" min="10" max="50" step="5">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" name="password" id="password" required>
+        </div>
+    
+        <br>
+    
+        <div>
+            <input type="submit" value="Submit">
+            <input type="button" value="Cancel">
+            <button value="Cancel">button</button>
+            <input type="reset" value="Reset">
+            
+        </div>
+    </form>
+</body>
+</html>
