@@ -1,0 +1,62 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+      <label for="name-label" id="name-label">name-label</label>
+      <input type="text" id="name" name="name-label" placeholder="enter your name" required />
+
+      <br>
+
+      <label for="email-label" id="email-label">email-label</label>
+      <input type="email" id="email" name="email-label" placeholder="enter your email" required /> 
+
+      <br>
+
+      <label for="number-label" id="number-label">number-label</label>
+      <input type="number" id="number" name="number-label" min="10" max="99" placeholder="Age"/> 
+
+      <br>
+
+      <label for="dropdown">Which option best describes your current role?</label>
+      <select id="dropdown">
+        <option>select current role</option>
+        <option>student</option>
+        <option>full time job</option>
+        <option>full time learner</option>
+        <option>prefer not to say</option>
+        <option>other</option>
+      </select>
+
+      <br>
+
+      <label for="name">Would you recommend freeCodeCamp to a friend?</label>
+      <input type="radio" id="name" name="name" value="Definitely" /> Definitely 
+      <input type="radio" id="name" name="name" value="Maybe" /> Maybe
+      <input type="radio" id="name" name="name" value="not sure" /> not sure
+
+      <br>
+
+      <label for="check">What would you like to see improved?</label>
+      <input type="checkbox" id="check" name="check" value="Front End" /> Front End
+      <input type="checkbox" id="check" name="check" value="Back End" /> Back End
+      <input type="checkbox" id="check" name="check" value="Data Visualization" /> Data Visualization
+      <input type="checkbox" id="check" name="check" value="Wiki" /> Wiki
+      <input type="checkbox" id="check" name="check" value="Forum" /> Forum
+
+      <br>
+
+      <label for="area">Any comments or suggestions?</label>
+      <textarea placeholder="Enter your comment here..."></textarea>
+
+      <br>
+
+      <input type="submit" id="submit" Value="Submit" />
+    </form>
+  </body>
+</html>
